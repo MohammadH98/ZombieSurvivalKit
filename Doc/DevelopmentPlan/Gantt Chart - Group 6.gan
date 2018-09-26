@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-26" view-index="0" gantt-divider-location="300" resource-divider-location="344" version="2.8.9" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-22" view-index="0" gantt-divider-location="300" resource-divider-location="344" version="2.8.9" locale="en_US">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="166" order="0"/>
-        <field id="tpd4" name="Begin date" width="64" order="1"/>
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
         <field id="tpd5" name="End date" width="64" order="2"/>
         <timeline><![CDATA[2]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="231" order="0"/>
-        <field id="1" name="Default role" width="107" order="1"/>
+        <field id="0" name="Name" width="232" order="0"/>
+        <field id="1" name="Default role" width="108" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -16,7 +16,7 @@
             <day-type id="0"/>
             <day-type id="1"/>
             <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
-            <only-show-weekends value="false"/>
+            <only-show-weekends value="true"/>
             <overriden-day-types/>
             <days/>
         </day-types>
@@ -47,6 +47,15 @@
             <task id="22" name="Project Schedule" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="23" name="Project Review" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
         </task>
+        <task id="25" name="Requirements Document" color="#8cb6ce" meeting="false" start="2018-09-29" duration="7" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="48" name="Work on Proof of Concept" color="#8cb6ce" meeting="false" start="2018-10-06" duration="10" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Proof of Concept Demonstration" color="#8cb6ce" meeting="false" start="2018-10-16" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="33" name="Test Plan" color="#8cb6ce" meeting="false" start="2018-10-17" duration="10" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="36" name="Design &amp; Document" color="#8cb6ce" meeting="false" start="2018-10-27" duration="14" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="39" name="Revision 0 Demonstration" color="#8cb6ce" meeting="false" start="2018-11-13" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="41" name="Final Demonstration" color="#8cb6ce" meeting="false" start="2018-11-27" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="Peer Eval" color="#8cb6ce" meeting="false" start="2018-11-27" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="Final Documentation" color="#8cb6ce" meeting="false" start="2018-11-29" duration="7" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="1" name="Brian Jonatan" function="SoftwareDevelopment:2" contacts="jonatans@mcmaster.ca" phone=""/>
