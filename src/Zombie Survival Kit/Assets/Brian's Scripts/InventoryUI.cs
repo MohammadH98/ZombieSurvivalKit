@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// InventoryUI: A class used to manage the inventory UI when items are added or removed
+/// from the inventory
+/// </summary>
 public class InventoryUI : MonoBehaviour {
 
     /* Used to references the parent of all of the inventory slots
@@ -18,8 +22,10 @@ public class InventoryUI : MonoBehaviour {
     InventorySlot[] slots;
 
 
-	// Use this for initialization
-	void Start () {
+    /// <summary>
+    /// Start(): Is a void method used for initialization
+    /// </summary>
+    void Start () {
         inventory = Inventory.instance;
         // onItemChangedCcallBack triggers UpdateUI
         inventory.onItemChangedCallback += UpdateUI;
@@ -29,9 +35,11 @@ public class InventoryUI : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    /// <summary>
+    /// Update(): Is a void method that is called once per frame
+    /// </summary>
+    void Update () {
 		if (Input.GetKeyDown(KeyCode.I))
         {
             if (!inventoryUI.enabled)
@@ -52,6 +60,10 @@ public class InventoryUI : MonoBehaviour {
         }
 	}
 
+    /// <summary>
+    /// UpdateUI(): Is a void method that updates the inventory UI when an item is added
+    /// or removed from the invenotry.
+    /// </summary>
     void UpdateUI()
     {
         Debug.Log("Updating UI");

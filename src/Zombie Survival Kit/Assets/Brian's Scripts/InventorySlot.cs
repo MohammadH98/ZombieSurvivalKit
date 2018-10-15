@@ -1,19 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// InventorySlot: A class used to manage the slots in the inventory UI, and includes
+/// the methods that update these slots.
+/// </summary>
 public class InventorySlot : MonoBehaviour {
 
-    // A reference to the icon of the item being stored
+    /* A reference to the icon of the item being stored
+     */
     public Image icon;
 
-    // A reference to the remove button on the inventory slot
+    /* A reference to the remove button on the inventory slot
+     */
     public Button removeButton;
 
-    // A reference to the item being stored in the inventory UI and list
+    /* A reference to the item being stored in the inventory UI and list
+     */
     Item item;
 
-    /* Adds an item to the inventory UI
-     */
+    /// <summary>
+    /// addItem(Item newItem): Is a void method that adds an item to the inventory slot
+    /// </summary>
+    /// <param name="newItem"></param>
     public void addItem (Item newItem)
     {
         item = newItem;
@@ -22,9 +31,11 @@ public class InventorySlot : MonoBehaviour {
         icon.enabled = true;
         removeButton.interactable = true;
     }
-
-    /* Clears the images on the inventory slot in the inventory UI
-     */
+    
+    /// <summary>
+    /// clearSlot(): A void method used to clear the images on the inventory slot in 
+    /// the inventory UI
+    /// </summary>
     public void clearSlot()
     {
         item = null;
@@ -32,18 +43,20 @@ public class InventorySlot : MonoBehaviour {
         icon.enabled = false;
         removeButton.interactable = false;
     }
-
-    /* Removes the item in the inventory from the inventory list when
-     * remove button is pressed
-     */
+        
+    /// <summary>
+    /// onRemoveButton(): a void method that Removes the item in the inventory from the 
+    /// inventory list when the remove button is pressed
+    /// </summary>
     public void onRemoveButton()
     {
         Inventory.instance.Remove(item);
     }
 
-    /* Uses the item in the inventory from the inventory list when
-     * inventory slot button is pressed
-     */
+    /// <summary>
+    /// useItem(): A void method that uses the item in the inventory from the inventory 
+    /// list when the inventory slot button is pressed
+    /// </summary>
     public void useItem()
     {
         if (item != null)
