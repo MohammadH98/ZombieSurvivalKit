@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// HealthManager: Is a class used to keep track of the player's health, and 
-/// consists of methods that can affect the player's health.
+/// HealthManager: Is a class used to keep track of the player's statistics, and 
+/// consists of methods that can affect the player's attributes.
 /// </summary>
 public class HealthManager : MonoBehaviour {
 
@@ -21,6 +21,7 @@ public class HealthManager : MonoBehaviour {
     }
     #endregion
 
+    public GameObject player;
     int maxHealth = 20;
     public int health;
 

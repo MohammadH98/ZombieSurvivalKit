@@ -71,9 +71,9 @@
     <Compile Include="Assets\Brian's Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Brian's Scripts\Item.cs" />
     <Compile Include="Assets\Brian's Scripts\ItemStore.cs" />
+    <Compile Include="Assets\Brian's Scripts\Mo's Scripts\Zombie.cs" />
     <Compile Include="Assets\Brian's Scripts\Pickupable.cs" />
     <Compile Include="Assets\Brian's Scripts\PickupDropItems.cs" />
-    <Compile Include="Assets\Mo's Scripts\Zombie.cs" />
     <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
     <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
@@ -115,10 +115,12 @@
     <None Include="Assets\rpg-tutorial-assets\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Toon Zombie S\TSF\Shaders\TSFOutline.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Toon Zombie S\TSF\Shaders\TSF.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
