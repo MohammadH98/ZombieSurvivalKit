@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 /// <summary>
 /// HealthManager: Is a class used to keep track of the player's statistics, and 
 /// consists of methods that can affect the player's attributes.
 /// </summary>
-public class HealthManager : MonoBehaviour {
+public class HealthManager : MonoBehaviour
+{
 
     /// <summary>
     /// Singleton: Is a region used to create an instance of the HealthManager
@@ -52,6 +53,19 @@ public class HealthManager : MonoBehaviour {
             }
 
         }
+    }
+
+    public void TakeDamage(int dmg)
+    {
+        if (health > dmg)
+            health -= dmg;
+        else
+            health = 0;
+    }
+
+    public void KillPlayer()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 

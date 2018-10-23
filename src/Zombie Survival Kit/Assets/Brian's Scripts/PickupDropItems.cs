@@ -56,7 +56,7 @@ public class PickupDropItems : MonoBehaviour
     {
         /* Draws to screen the length of the raycast
          */
-        Debug.DrawRay(this.transform.position, this.transform.forward * distanceToSee, Color.magenta);
+        Debug.DrawRay(transform.position, this.transform.forward * distanceToSee, Color.magenta);
 
         /* Checks the player is carrying something. If it is, then move carriedObject. Else, check for pickup instruction.
          */
@@ -69,6 +69,8 @@ public class PickupDropItems : MonoBehaviour
         {
             pickup();
         }
+
+        AttackEnemy();
 
         /* Checks if the player is focused on an interactable and checks the distance from the interactable to the player
          * If the player is outside the radius of the interactable, RemoveFocus()
@@ -162,6 +164,28 @@ public class PickupDropItems : MonoBehaviour
 
                 }
 
+            }
+
+        }
+    }
+
+    void AttackEnemy()
+    {
+        /* Creating an interaction with interactiable objects in game when user 
+         * presses the LMB on their mouse
+         */
+        if (Input.GetMouseButtonDown(0))
+        {
+            /* If the ray hits, do something
+             */
+            if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, distanceToSee))
+            {
+                Interactable interactable = hit.collider.GetComponent<Interactable>();
+
+                /* Checks of the game object is interactable
+                 */
+                if (interactable != null)
+                    SetFocus(interactable);
             }
 
         }

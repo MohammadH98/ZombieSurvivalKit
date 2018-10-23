@@ -19,6 +19,9 @@ public class Zombie : MonoBehaviour
     private Vector3 target;
     private Vector3 spawnLocation;
 
+    private CharacterCombat combat;
+    private CharacterStats targetStats;
+
     private enum EnemyStates { Passive, Attack, Hurt, Dead };
     private EnemyStates enemyState = EnemyStates.Passive;
 
@@ -34,6 +37,7 @@ public class Zombie : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         player = HealthManager.instance.player.transform;
         animator = GetComponent<Animator>();
+        combat = GetComponent<CharacterCombat>();
     }
 	
 	// Update is called once per frame
@@ -64,7 +68,12 @@ public class Zombie : MonoBehaviour
                 MoveToTarget();
 
                 if (distanceToPlayer <= (agent.stoppingDistance + 0.6f))
+                {
                     animator.SetBool("attack", true);
+                    targetStats = player.GetComponent<CharacterStats>();
+                    if (targetStats != null)
+                        combat.Attack(targetStats);
+                }   
                 else
                     animator.SetBool("attack", false);
 
@@ -105,7 +114,7 @@ public class Zombie : MonoBehaviour
 
     public void AttackEnd()
     {
-        HealthManager.instance.health -= 4;
+        HealthManager.instance.TakeDamage(4);
     }
     public float ReturnHealth()
     {
