@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -192,7 +192,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count103
 )
-No file TestPlan.aux.
+(./TestPlan.aux)
 \openout1 = `TestPlan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -210,6 +210,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 \AtBeginShipoutBox=\box28
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
@@ -247,6 +248,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
+
+(./TestPlan.out) (./TestPlan.out)
 \@outlinefile=\write3
 \openout3 = `TestPlan.out'.
 
@@ -254,22 +257,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
+ [1
 
-[1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Test
+Plan.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [1] [2])
 \tf@toc=\write4
 \openout4 = `TestPlan.toc'.
 
+ (./TestPlan.lot)
 \tf@lot=\write5
 \openout5 = `TestPlan.lot'.
 
+
+(./TestPlan.lof)
 \tf@lof=\write6
 \openout6 = `TestPlan.lof'.
 
-
-[1]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
-as been already used, duplicate ignored
+ [3]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.84 
@@ -1553,25 +1565,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 951.
  (./TestPlan.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 951.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 951.
-
-
-Package rerunfilecheck Warning: File `TestPlan.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `TestPlan.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  143D5699D0D83309795A1A96FEE1670E;5471.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `TestPlan.out' has not changed.
+(rerunfilecheck)             Checksum: 143D5699D0D83309795A1A96FEE1670E;5471.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 951.
  ) 
 Here is how much of TeX's memory you used:
- 5352 strings out of 492649
- 77647 string characters out of 6129622
- 169192 words of memory out of 5000000
- 9072 multiletter control sequences out of 15000+600000
+ 5420 strings out of 492649
+ 78778 string characters out of 6129622
+ 172341 words of memory out of 5000000
+ 9126 multiletter control sequences out of 15000+600000
  8977 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,10n,28p,1855b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1579,10 +1581,10 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TestPlan.pdf (39 pages, 118934 bytes).
+Output written on TestPlan.pdf (41 pages, 129357 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 161 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
