@@ -1,0 +1,73 @@
+\contentsline {section}{\numberline {1}General Information}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Purpose}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scope}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Acronyms, Abbreviations, and Symbols}{1}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Overview of Document}{1}{subsection.1.4}
+\contentsline {section}{\numberline {2}Plan}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Software Description}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Test Team}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Automated Testing Approach}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Testing Tools}{2}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Testing Schedule}{2}{subsection.2.5}
+\contentsline {section}{\numberline {3}System Test Description}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tests for Functional Requirements}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Func. Req. 1: The player must be able to move forward, left, down, and right using the WASD keys}{3}{subsubsection.3.1.1}
+\contentsline {paragraph}{Player Movement}{3}{section*.4}
+\contentsline {subsubsection}{\numberline {3.1.2}Func. Req. 2: The player must be able to lookin all directions by moving their mouse}{3}{subsubsection.3.1.2}
+\contentsline {paragraph}{Camera Movement}{3}{section*.5}
+\contentsline {subsubsection}{\numberline {3.1.3}Func. Req. 3: Zombie enemies must walk back and forth between random points in their 'spawn' circle, which imitates them walking around}{4}{subsubsection.3.1.3}
+\contentsline {paragraph}{'Spawn' Circle}{4}{section*.6}
+\contentsline {subsubsection}{\numberline {3.1.4}Func. Req. 4: Zombie enemies must start attacking the player when they come within a certain radius}{5}{subsubsection.3.1.4}
+\contentsline {paragraph}{Attack Radius}{5}{section*.7}
+\contentsline {subsubsection}{\numberline {3.1.5}Func. Req. 5: Zombie enemies must follow the player if they start running away while the zombie is in it's attack state}{6}{subsubsection.3.1.5}
+\contentsline {paragraph}{Zombie Follows Player}{6}{section*.8}
+\contentsline {subsubsection}{\numberline {3.1.6}Func. Req. 6: If the player runs past a certain radius from the zombie's original spawn loaction, the zombie must return to their circle}{7}{subsubsection.3.1.6}
+\contentsline {paragraph}{Zombie Returns to 'Spawn' Circle Center}{7}{section*.9}
+\contentsline {subsubsection}{\numberline {3.1.7}Func. Req. 7: Different types of zombies must have different statistics (health, damage,etc.)}{8}{subsubsection.3.1.7}
+\contentsline {paragraph}{Zombie Stats}{8}{section*.10}
+\contentsline {subsubsection}{\numberline {3.1.8}Func. Req. 8: Zombies must have randomly generated chance of dropping items the player can use or consume when killed.}{8}{subsubsection.3.1.8}
+\contentsline {paragraph}{Appearing Drops}{8}{section*.11}
+\contentsline {subsubsection}{\numberline {3.1.9}Func. Req. 9: Dropped items must be automatically deleted if not picked up within a certain time}{9}{subsubsection.3.1.9}
+\contentsline {paragraph}{Disappearing Drops}{9}{section*.12}
+\contentsline {subsubsection}{\numberline {3.1.10}Func. Req. 10: The player must be able to pick up tiems they are looking at with the 'interact' key}{10}{subsubsection.3.1.10}
+\contentsline {paragraph}{Pickup Drops}{10}{section*.13}
+\contentsline {subsubsection}{\numberline {3.1.11}Func. Req. 11: The player must be able to access their inventory by pressing the 'invenotry' key}{11}{subsubsection.3.1.11}
+\contentsline {paragraph}{Inventory Access}{11}{section*.14}
+\contentsline {subsubsection}{\numberline {3.1.12}Func. Req. 12: The player must by able to equip, consume, delete, and move around items in their inventory using the mouse.}{12}{subsubsection.3.1.12}
+\contentsline {paragraph}{Use Items Move Items}{12}{section*.15}
+\contentsline {subsubsection}{\numberline {3.1.13}Func. Req. 13: The player must by able to fire/use their equipped weapon by pressing the left mouse button.}{13}{subsubsection.3.1.13}
+\contentsline {paragraph}{Attack Items}{13}{section*.16}
+\contentsline {subsubsection}{\numberline {3.1.14}Func. Req. 14: If the player has a firearm equipped, they must be able to aimdown sights using the right mouse button.}{14}{subsubsection.3.1.14}
+\contentsline {paragraph}{Aiming}{14}{section*.17}
+\contentsline {subsubsection}{\numberline {3.1.15}Func. Req. 15: The environment must slowly go through a day and night cycle.}{15}{subsubsection.3.1.15}
+\contentsline {paragraph}{Day and Night}{15}{section*.18}
+\contentsline {subsubsection}{\numberline {3.1.16}Func. Req. 16: The player must lose health when hit by a zombie}{15}{subsubsection.3.1.16}
+\contentsline {paragraph}{Zombie Attack}{15}{section*.19}
+\contentsline {subsubsection}{\numberline {3.1.17}Func. Req. 17: Zombies must lose health when hit by the player}{16}{subsubsection.3.1.17}
+\contentsline {paragraph}{Player Attack}{16}{section*.20}
+\contentsline {subsubsection}{\numberline {3.1.18}Func. Req. 18: Players and zombies must die when they reach 0 health}{17}{subsubsection.3.1.18}
+\contentsline {paragraph}{Death}{17}{section*.21}
+\contentsline {subsubsection}{\numberline {3.1.19}Func. Req. 19: Upon player death, the game must reset}{18}{subsubsection.3.1.19}
+\contentsline {paragraph}{Reset}{18}{section*.22}
+\contentsline {subsection}{\numberline {3.2}Tests for Nonfunctional Requirements}{19}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Look and Feel Requirements}{19}{subsubsection.3.2.1}
+\contentsline {paragraph}{Look and Feel}{19}{section*.23}
+\contentsline {subsubsection}{\numberline {3.2.2}Usability and Humanity Requirements}{21}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Performance Requirements}{21}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Safety Critical Requirements}{24}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Precision Requirements}{24}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Reliability and Availability Requirements}{27}{subsubsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.7}Cultural Requirements}{29}{subsubsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.8}Non-function Requirements not being tested on}{29}{subsubsection.3.2.8}
+\contentsline {subsection}{\numberline {3.3}Traceability Between Test Cases and Requirements}{30}{subsection.3.3}
+\contentsline {section}{\numberline {4}Tests for Proof of Concept}{31}{section.4}
+\contentsline {subsection}{\numberline {4.1}Movement and Camera}{31}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Inventory System}{32}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Enemy pathfinding}{34}{subsection.4.3}
+\contentsline {section}{\numberline {5}Comparison to Existing Implementation}{34}{section.5}
+\contentsline {section}{\numberline {6}Unit Testing Plan}{35}{section.6}
+\contentsline {subsection}{\numberline {6.1}Unit testing of internal functions}{35}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Unit testing of output files}{36}{subsection.6.2}
+\contentsline {section}{\numberline {7}Appendix}{36}{section.7}
+\contentsline {subsection}{\numberline {7.1}Symbolic Parameters}{36}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Usability Survey Questions?}{36}{subsection.7.2}

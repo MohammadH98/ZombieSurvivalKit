@@ -1,0 +1,53 @@
+\BOOKMARK [1][-]{section.1}{General Information}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Purpose}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Scope}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Acronyms, Abbreviations, and Symbols}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Overview of Document}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Plan}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Software Description}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Test Team}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Automated Testing Approach}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{Testing Tools}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.5}{Testing Schedule}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{System Test Description}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Tests for Functional Requirements}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Func. Req. 1: The player must be able to move forward, left, down, and right using the WASD keys}{subsection.3.1}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Func. Req. 2: The player must be able to lookin all directions by moving their mouse}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Func. Req. 3: Zombie enemies must walk back and forth between random points in their 'spawn' circle, which imitates them walking around}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Func. Req. 4: Zombie enemies must start attacking the player when they come within a certain radius}{subsection.3.1}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Func. Req. 5: Zombie enemies must follow the player if they start running away while the zombie is in it's attack state}{subsection.3.1}% 18
+\BOOKMARK [3][-]{subsubsection.3.1.6}{Func. Req. 6: If the player runs past a certain radius from the zombie's original spawn loaction, the zombie must return to their circle}{subsection.3.1}% 19
+\BOOKMARK [3][-]{subsubsection.3.1.7}{Func. Req. 7: Different types of zombies must have different statistics \(health, damage,etc.\)}{subsection.3.1}% 20
+\BOOKMARK [3][-]{subsubsection.3.1.8}{Func. Req. 8: Zombies must have randomly generated chance of dropping items the player can use or consume when killed.}{subsection.3.1}% 21
+\BOOKMARK [3][-]{subsubsection.3.1.9}{Func. Req. 9: Dropped items must be automatically deleted if not picked up within a certain time}{subsection.3.1}% 22
+\BOOKMARK [3][-]{subsubsection.3.1.10}{Func. Req. 10: The player must be able to pick up tiems they are looking at with the 'interact' key}{subsection.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.11}{Func. Req. 11: The player must be able to access their inventory by pressing the 'invenotry' key}{subsection.3.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.12}{Func. Req. 12: The player must by able to equip, consume, delete, and move around items in their inventory using the mouse.}{subsection.3.1}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.13}{Func. Req. 13: The player must by able to fire/use their equipped weapon by pressing the left mouse button.}{subsection.3.1}% 26
+\BOOKMARK [3][-]{subsubsection.3.1.14}{Func. Req. 14: If the player has a firearm equipped, they must be able to aimdown sights using the right mouse button.}{subsection.3.1}% 27
+\BOOKMARK [3][-]{subsubsection.3.1.15}{Func. Req. 15: The environment must slowly go through a day and night cycle.}{subsection.3.1}% 28
+\BOOKMARK [3][-]{subsubsection.3.1.16}{Func. Req. 16: The player must lose health when hit by a zombie}{subsection.3.1}% 29
+\BOOKMARK [3][-]{subsubsection.3.1.17}{Func. Req. 17: Zombies must lose health when hit by the player}{subsection.3.1}% 30
+\BOOKMARK [3][-]{subsubsection.3.1.18}{Func. Req. 18: Players and zombies must die when they reach 0 health}{subsection.3.1}% 31
+\BOOKMARK [3][-]{subsubsection.3.1.19}{Func. Req. 19: Upon player death, the game must reset}{subsection.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.2}{Tests for Nonfunctional Requirements}{section.3}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Look and Feel Requirements}{subsection.3.2}% 34
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Usability and Humanity Requirements}{subsection.3.2}% 35
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Performance Requirements}{subsection.3.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Safety Critical Requirements}{subsection.3.2}% 37
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Precision Requirements}{subsection.3.2}% 38
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Reliability and Availability Requirements}{subsection.3.2}% 39
+\BOOKMARK [3][-]{subsubsection.3.2.7}{Cultural Requirements}{subsection.3.2}% 40
+\BOOKMARK [3][-]{subsubsection.3.2.8}{Non-function Requirements not being tested on}{subsection.3.2}% 41
+\BOOKMARK [2][-]{subsection.3.3}{Traceability Between Test Cases and Requirements}{section.3}% 42
+\BOOKMARK [1][-]{section.4}{Tests for Proof of Concept}{}% 43
+\BOOKMARK [2][-]{subsection.4.1}{Movement and Camera}{section.4}% 44
+\BOOKMARK [2][-]{subsection.4.2}{Inventory System}{section.4}% 45
+\BOOKMARK [2][-]{subsection.4.3}{Enemy pathfinding}{section.4}% 46
+\BOOKMARK [1][-]{section.5}{Comparison to Existing Implementation}{}% 47
+\BOOKMARK [1][-]{section.6}{Unit Testing Plan}{}% 48
+\BOOKMARK [2][-]{subsection.6.1}{Unit testing of internal functions}{section.6}% 49
+\BOOKMARK [2][-]{subsection.6.2}{Unit testing of output files}{section.6}% 50
+\BOOKMARK [1][-]{section.7}{Appendix}{}% 51
+\BOOKMARK [2][-]{subsection.7.1}{Symbolic Parameters}{section.7}% 52
+\BOOKMARK [2][-]{subsection.7.2}{Usability Survey Questions?}{section.7}% 53
