@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-20" view-index="0" gantt-divider-location="300" resource-divider-location="344" version="2.8.9" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-20" view-index="0" gantt-divider-location="300" resource-divider-location="344" version="2.8.9" locale="en_US">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Name" width="157" order="0"/>
-        <field id="tpd4" name="Begin date" width="61" order="1"/>
-        <field id="tpd5" name="End date" width="61" order="2"/>
+        <field id="tpd3" name="Name" width="163" order="0"/>
+        <field id="tpd4" name="Begin date" width="67" order="1"/>
+        <field id="tpd5" name="End date" width="66" order="2"/>
         <timeline><![CDATA[2]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="231" order="0"/>
-        <field id="1" name="Default role" width="107" order="1"/>
+        <field id="0" name="Name" width="232" order="0"/>
+        <field id="1" name="Default role" width="108" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -34,13 +34,12 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="2" name="Development plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="9" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" priority="4" expand="true">
+        <task id="2" name="Development plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="9" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" priority="4" expand="false">
             <task id="5" name="LaTeX document" color="#8cb6ce" meeting="false" start="2018-09-27" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="15" name="Team Meeting Plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="3" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="24" name="Team Number, names, etc" color="#8cb6ce" meeting="false" start="2018-09-26" duration="3" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="16" name="Team Communication Plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="17" name="Team Member Roles" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
-            <task id="18" name="Git Workflow Plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="19" name="Proof of Concept Plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="20" name="Technology" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="21" name="Coding Style" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
@@ -48,7 +47,7 @@
             <task id="23" name="Project Review" color="#8cb6ce" meeting="false" start="2018-09-28" duration="7" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
             <task id="72" name="Gantt Chart" color="#8cb6ce" meeting="false" start="2018-09-27" duration="2" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="57" name="Requirements Document" color="#8cb6ce" meeting="false" start="2018-09-29" duration="6" complete="0" thirdDate="2018-09-28" thirdDate-constraint="0" expand="true">
+        <task id="57" name="Requirements Document" color="#8cb6ce" meeting="false" start="2018-09-26" duration="9" complete="0" thirdDate="2018-09-28" thirdDate-constraint="0" expand="false">
             <task id="80" name="LaTeX Document" color="#8cb6ce" meeting="false" start="2018-09-29" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="85" name="Title Page" color="#8cb6ce" meeting="false" start="2018-09-29" duration="1" complete="0" thirdDate="2018-09-29" thirdDate-constraint="0" expand="true"/>
             <task id="86" name="Table of Contents" color="#8cb6ce" meeting="false" start="2018-09-29" duration="1" complete="0" thirdDate="2018-09-29" thirdDate-constraint="0" expand="true"/>
@@ -58,7 +57,9 @@
             <task id="90" name="Check formatting and page numbering" color="#8cb6ce" meeting="false" start="2018-10-04" duration="1" complete="0" thirdDate="2018-10-04" thirdDate-constraint="0" expand="true"/>
             <task id="91" name="Project drivers" color="#8cb6ce" meeting="false" start="2018-09-30" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="92" name="Scope and context" color="#8cb6ce" meeting="false" start="2018-09-30" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
-            <task id="93" name="Project issues" color="#8cb6ce" meeting="false" start="2018-09-30" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Project issues" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true">
+                <task id="122" name="Git Workflow Plan" color="#8cb6ce" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+            </task>
             <task id="94" name="Open issues section" color="#8cb6ce" meeting="false" start="2018-10-01" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="95" name="Technical and non technical risks" color="#8cb6ce" meeting="false" start="2018-10-01" duration="3" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="96" name="Non-functional requirements" color="#8cb6ce" meeting="false" start="2018-10-01" duration="3" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
@@ -67,7 +68,7 @@
             <task id="99" name="FAQ section" color="#8cb6ce" meeting="false" start="2018-10-04" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="101" name="Assumptions and prerequisites" color="#8cb6ce" meeting="false" start="2018-10-04" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="48" name="Work on Proof of Concept" color="#8cb6ce" meeting="false" start="2018-10-10" duration="6" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+        <task id="48" name="Work on Proof of Concept" color="#8cb6ce" meeting="false" start="2018-10-10" duration="6" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="false">
             <task id="102" name="Terrain" color="#8cb6ce" meeting="false" start="2018-10-10" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="105" name="Character Movement" color="#8cb6ce" meeting="false" start="2018-10-10" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="107" name="Asset importing" color="#8cb6ce" meeting="false" start="2018-10-10" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
@@ -75,7 +76,13 @@
             <task id="117" name="Inventory System" color="#8cb6ce" meeting="false" start="2018-10-12" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
             <task id="121" name="Integration and Maintenance" color="#8cb6ce" meeting="false" start="2018-10-15" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="33" name="Test Plan" color="#8cb6ce" meeting="false" start="2018-10-17" duration="10" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+        <task id="33" name="Test Plan" color="#8cb6ce" meeting="false" start="2018-10-24" duration="3" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="false">
+            <task id="123" name="Functional Requirements" color="#8cb6ce" meeting="false" start="2018-10-24" duration="3" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
+            <task id="124" name="Non Functional Requirements" color="#8cb6ce" meeting="false" start="2018-10-24" duration="3" complete="0" thirdDate="2018-10-24" thirdDate-constraint="0" expand="true"/>
+            <task id="125" name="Proof of Concept Testin" color="#8cb6ce" meeting="false" start="2018-10-26" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
+            <task id="126" name="Unit Testing" color="#8cb6ce" meeting="false" start="2018-10-26" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
+            <task id="127" name="About Project" color="#8cb6ce" meeting="false" start="2018-10-26" duration="1" complete="0" thirdDate="2018-09-20" thirdDate-constraint="0" expand="true"/>
+        </task>
         <task id="36" name="Design &amp; Document" color="#8cb6ce" meeting="false" start="2018-10-27" duration="14" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
         <task id="39" name="Revision 0 Demonstration" color="#8cb6ce" meeting="false" start="2018-11-13" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
         <task id="41" name="Final Demonstration" color="#8cb6ce" meeting="false" start="2018-11-27" duration="2" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
@@ -100,6 +107,8 @@
         <allocation task-id="86" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="5.0"/>
         <allocation task-id="117" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="30.0"/>
         <allocation task-id="107" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="123" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
+        <allocation task-id="124" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
         <allocation task-id="5" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="5.0"/>
         <allocation task-id="24" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="5.0"/>
         <allocation task-id="17" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="5.0"/>
@@ -118,9 +127,9 @@
         <allocation task-id="107" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
         <allocation task-id="114" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="25.0"/>
         <allocation task-id="121" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
+        <allocation task-id="126" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="30.0"/>
         <allocation task-id="16" resource-id="3" function="Default:1" responsible="true" load="5.0"/>
         <allocation task-id="17" resource-id="3" function="Default:1" responsible="true" load="5.0"/>
-        <allocation task-id="18" resource-id="3" function="Default:1" responsible="true" load="10.0"/>
         <allocation task-id="22" resource-id="3" function="Default:1" responsible="true" load="25.0"/>
         <allocation task-id="19" resource-id="3" function="Default:1" responsible="true" load="10.0"/>
         <allocation task-id="72" resource-id="3" function="Default:1" responsible="true" load="50.0"/>
@@ -134,6 +143,9 @@
         <allocation task-id="105" resource-id="3" function="Default:1" responsible="true" load="10.0"/>
         <allocation task-id="107" resource-id="3" function="Default:1" responsible="true" load="10.0"/>
         <allocation task-id="121" resource-id="3" function="Default:1" responsible="true" load="25.0"/>
+        <allocation task-id="122" resource-id="3" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="125" resource-id="3" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="127" resource-id="3" function="Default:1" responsible="true" load="20.0"/>
     </allocations>
     <vacations/>
     <previous/>
