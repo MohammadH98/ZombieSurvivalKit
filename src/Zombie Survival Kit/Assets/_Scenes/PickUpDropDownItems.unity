@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 98458701}
   - component: {fileID: 98458703}
   - component: {fileID: 98458704}
+  - component: {fileID: 98458705}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -415,6 +416,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   equippedItems: []
+--- !u!114 &98458705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98458700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61464abcb36319844932327fd195bcaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  curHealth: 0
+  dmg:
+    initialValue: 0
+  armour:
+    initialValue: 0
 --- !u!224 &271399770 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224871294845715804, guid: b6b9c08914661d747b0a060d3389baf8,

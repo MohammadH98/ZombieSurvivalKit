@@ -21,11 +21,11 @@ public class PlayerStats : CharacterStats
     // Use this for initialization
     void Start ()
     {
-        curHealth = maxHealth;
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
+        curHealth = maxHealth;
 	}
 
-    void OnEquipmentChanged(EquipmentItem oldItem, EquipmentItem newItem)
+    void OnEquipmentChanged(EquipmentItem newItem, EquipmentItem oldItem)
     {
         if (newItem != null)
         {
