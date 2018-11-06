@@ -24,7 +24,7 @@ public class ConsumableItem : Item
     public override void Use()
     {
         base.Use();
-        HealthManager.instance.Eat(this);
+        PlayerStats.instance.Eat(this);
         RemoveFromInventory();
         
     }

@@ -5,9 +5,23 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
 
-	// Use this for initialization
-	void Start ()
+    /// <summary>
+    /// Singleton: Is a region used to create an instance of the HealthManager
+    /// class
+    /// </summary>
+    #region Singleton
+    public static PlayerStats instance;
+
+    private void Awake()
     {
+        instance = this;
+    }
+    #endregion
+
+    // Use this for initialization
+    void Start ()
+    {
+        curHealth = maxHealth;
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
 	}
 
@@ -16,15 +30,37 @@ public class PlayerStats : CharacterStats
         if (newItem != null)
         {
             armour.AddToStat(newItem.defenceModifier);
-            armour.AddToStat(newItem.attackModifier);
+            dmg.AddToStat(newItem.attackModifier);
         }
 
         if (oldItem != null)
         {
             armour.RemoveFromStat(oldItem.defenceModifier);
-            armour.RemoveFromStat(oldItem.attackModifier);
+            dmg.RemoveFromStat(oldItem.attackModifier);
         }
 
+    }
+
+    /// <summary>
+    /// Eat(ConsumableItem consumable): Is a void method that, upon use,
+    /// enables the player to use the ConsumableItem to restore the player's
+    /// health
+    /// </summary>
+    /// <param name="consumable">The ConsumableItem being used</param>
+    public void Eat(ConsumableItem consumable)
+    {
+        if (curHealth < maxHealth)
+        {
+            if (curHealth + consumable.healthModifier <= maxHealth)
+            {
+                curHealth += consumable.healthModifier;
+            }
+            else
+            {
+                curHealth = maxHealth;
+            }
+
+        }
     }
 
     public override void Die()

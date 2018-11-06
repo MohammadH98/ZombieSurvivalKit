@@ -5,15 +5,15 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterStats))]
 public class CharacterCombat : MonoBehaviour
 {
-    public float attackSpeed = 0.8f;
+    public float attackSpeed = 0.5f;
     private float attackCooldown = 0f;
     private float attackDelay = 1.5f;
 
-    CharacterStats myStats;
+    CharacterStats attackerStats;
 
     private void Start()
     {
-        myStats = GetComponent<CharacterStats>();
+        attackerStats = GetComponent<CharacterStats>();
     }
 
     private void Update()
@@ -33,6 +33,6 @@ public class CharacterCombat : MonoBehaviour
     IEnumerator DoDamage(CharacterStats stats, float delay)
     {
         yield return new WaitForSeconds(delay);
-        stats.TakeDamage(myStats.dmg.GetValue());
+        stats.TakeDamage(attackerStats.dmg.GetValue());
     }
 }

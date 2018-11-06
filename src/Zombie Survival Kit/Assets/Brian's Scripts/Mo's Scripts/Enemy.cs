@@ -6,12 +6,12 @@ using UnityEngine;
 public class Enemy : Interactable
 {
     HealthManager playerManager;
-    CharacterStats myStats;
+    CharacterStats enemyStats;
 
     private void Start()
     {
         playerManager = HealthManager.instance;
-        myStats = GetComponent<CharacterStats>();
+        enemyStats = GetComponent<CharacterStats>();
     }
 
     public override void Interact()
@@ -21,7 +21,7 @@ public class Enemy : Interactable
 
         if (playerCombat != null)
         {
-            playerCombat.Attack(myStats);
+            playerCombat.Attack(enemyStats);
         }
     }
 }

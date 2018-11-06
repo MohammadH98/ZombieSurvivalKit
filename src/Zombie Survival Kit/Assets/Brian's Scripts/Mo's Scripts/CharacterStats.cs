@@ -3,16 +3,15 @@
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int curHealth { get; private set; }
+    public int curHealth;
 
     public Stat dmg;
     public Stat armour;
 
-    void Awake()
+    private void Start()
     {
         curHealth = maxHealth;
     }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
